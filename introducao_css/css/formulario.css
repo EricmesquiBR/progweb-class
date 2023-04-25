@@ -1,0 +1,14 @@
+form {
+    font-size: 1.1em;
+}
+
+form input, form textarea{
+    background-color: #f4f4f4;
+    border-radius: 15px;    
+}
+
+form button {
+    color: white;
+    background-color: #007bff;
+    
+}

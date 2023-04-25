@@ -1,0 +1,11 @@
+body h2{
+    font-size: 1.2em;
+}
+
+body ul p {
+    color: #333;
+}
+
+p ~ .price {
+    font-weight: bold;
+}
