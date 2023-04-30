@@ -23,3 +23,29 @@ body header {
     
     
 }
+
+body a {
+    color: #FFFFFF;
+}
+
+section > h2 {
+    color: #0099FF;
+}
+
+.date {
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
+
+section:nth-of-type(2) li:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+ body h3 > a {
+    color: red;
+}  
+
+section:nth-of-type(3) a {
+    color: #FF9900;
+}
+
