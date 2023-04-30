@@ -1,0 +1,41 @@
+body h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+section#gallery {
+    background-color: gray;
+}
+
+section#gallery figure {
+    margin: 100px;
+
+}
+
+figure > figcaption {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+figure > a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+figure > a:hover {
+    color: rgb(25, 0, 255);
+}
+
+figure > img {
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+figure > img:hover {
+    filter: brightness(120%);
+}
+
+figure > figcaption::before {
+    content: "📷";
+}

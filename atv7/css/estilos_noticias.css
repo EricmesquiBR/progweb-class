@@ -1,18 +1,3 @@
-̉/*Defina a família de fontes da página inteira como ‘Helvetica, Arial,
-sans-serif’.
-○ Altere a cor de fundo do cabeçalho (header) para #333333
-○ Altere a cor da fonte dos links de navegação para #FFFFFF
-○ Altere a cor da fonte dos títulos das seções para #0099FF
-○ Altere o tamanho da fonte das datas dos artigos para 14px
-○ Altere o estilo da fonte das datas dos artigos para itálico
-○ Altere a cor da fonte das datas dos artigos para gray
-○ Defina a cor de fundo dos itens ímpar da lista da seção ‘Artigos em
-destaque’ para #F2F2F2
-○ Defina a cor do texto dos links localizados dentro de elementos h3
-para red
-○ Defina a cor da fonte dos links dentro da seção ‘Mais recentes’ para
-#FF9900
-*/
 body {
     font-family: Helvetica, Arial, sans-serif;
 
