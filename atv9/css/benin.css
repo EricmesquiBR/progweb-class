@@ -1,0 +1,28 @@
+.benin {
+    border: 1px solid black;
+    max-width: min-content;
+    display: flex;
+}
+
+.benin .quadrado1 {
+    background-color: green;
+    height: 180px;
+    width: 140px;
+}
+
+.benin .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.benin .quadrado2 {
+    background-color: rgb(255, 230, 0);
+    height: 90px;
+    width: 160px;
+}
+
+.benin .quadrado3 {
+    background-color: red;
+    height: 90px;
+    width: 160px;
+}
