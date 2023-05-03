@@ -1,0 +1,326 @@
+:root {
+    font-size: 62.5%;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    place-items: center;
+}
+
+/* alemanha */
+.alemanha {
+    border: .1rem solid #000000;
+    max-width: min-content;
+}
+
+.alemanha .quadrado1 {
+    background-color: #000000;
+    height: 6rem;
+    width: 30rem;
+}
+
+.alemanha .quadrado2 {
+    background-color: #de0000;
+    height: 6rem;
+    width: 30rem;
+}
+
+.alemanha .quadrado3{
+    background-color: #ffcf00;
+    height: 6rem;
+    width: 30rem;
+}
+
+
+/* benin */
+.benin {
+    border: 1px solid black;
+    max-width: min-content;
+    display: flex;
+}
+
+.benin .quadrado1 {
+    background-color: #008850;
+    height: 18rem;
+    width: 14rem;
+}
+
+.benin .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.benin .quadrado2 {
+    background-color: #fcd20e;
+    height: 9rem;
+    width: 16rem;
+}
+
+.benin .quadrado3 {
+    background-color: #e90829;
+    height: 9rem;
+    width: 16rem;
+}
+
+/* brasil */
+.brasil {
+    background-color: #009c37;
+    width: 30rem;
+    height: 18rem;
+
+}
+
+.brasil .losango{
+    position: relative;
+
+    width: 0;
+    height: 0;
+    border-left: 10.5rem solid transparent;
+    border-right: 10.5rem solid transparent;
+    border-bottom: 6.5rem solid #fee000;
+    top: 2.5rem;
+    left: 4rem;
+  }
+  
+  .brasil .losango:after {
+    position: absolute;
+    content: "";
+    left: -10.5rem;
+    top: 6.5rem;
+    width: 0;
+    height: 0;
+    border-left: 10.5rem solid transparent;
+    border-right: 10.5rem solid transparent;
+    border-top: 6.5rem solid #fee000;
+}
+
+.brasil .circulo {
+    overflow: hidden;
+    z-index: 2;
+    display: block;
+    background-color: #002277;
+    height: 8rem;
+    width: 8rem;
+    margin-top: -4rem;
+    margin-left: -4rem;
+  
+    top: 6.25rem;
+    left: 0px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+
+.brasil .circulo:before,
+.brasil .circulo:after {
+    top: 4rem;
+    left: 4rem;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.brasil .circulo:before,
+.brasil .circulo:after {
+  width: 9rem;
+  height: 4rem;
+  -ms-transform: rotate(14deg);
+  -webkit-transform: rotate(14deg);
+  transform: rotate(14deg);
+}
+
+.brasil .circulo:before {
+  z-index: 3;
+  content: '';
+  margin-top: -2rem;
+  margin-left: -4.5rem;
+  background: #fff;
+}
+
+.brasil .circulo:after {
+  z-index: 4;
+  content: '';
+  margin-top: -1rem;
+  margin-left: -4.8rem;
+  background-color: #002277;
+}
+
+/* botswana */
+.botswana {
+    border: 1px solid #000;
+    max-width: min-content;
+}
+
+.botswana .quadrado1{
+    background-color: #0cabff;
+    height: 18rem;
+    width: 30rem;
+    
+}
+
+.botswana .quadrado2{
+    position: relative;
+    top: 6.5rem;
+    height: 5rem;
+    background-color: #fff;
+
+}
+
+.botswana .quadrado3 {
+    position: relative;
+    top: 1rem;
+    height: 3rem;
+    background-color: #000;
+
+}
+
+/* finlandia */
+
+.finlandia {
+    border: .1rem solid #000;
+    background-color: #fff;
+    height: 18rem;
+    width: 30rem;
+}
+
+.finlandia .quadrado1{
+    position: relative;
+    top: 6.5rem;
+    height: 5rem;
+    background-color: #002f6c;
+
+}
+
+.finlandia .quadrado2 {
+    position: relative;
+    bottom: 6.5rem;
+    left: 6.5rem;
+    height: 18rem;
+    width: 5rem;
+    background-color: #002f6c;
+
+}
+
+/* italia */
+
+.italia {
+    border: .1rem solid black;
+    display: flex;
+    max-width: min-content;
+}
+
+.italia .quadrado1 {
+    background-color: #009344;
+    height: 18rem;
+    width: 10rem;
+}
+
+.italia .quadrado2 {
+    background-color: #fff;
+    height: 18rem;
+    width: 10rem;
+}
+
+.italia .quadrado3 {
+    background-color: #cf2734;
+    height: 18rem;
+    width: 10rem;
+}
+
+
+/* noruega */
+.noruega {
+    border: 1px solid #000;
+    background-color: #ef2d2f;
+    height: 20rem;
+    width: 40rem;
+}
+
+.noruega .quadrado1{
+    top: 7.5rem;
+    height: 5rem;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+.noruega .quadrado2 {  
+    position: relative;
+    height: 20rem;
+    left: 10rem;
+    bottom: 5rem;
+    width: 5rem;
+    background-color: #fff;
+
+}
+
+.noruega .quadrado3{
+    height: 2.5rem;
+    width: 100%;
+    bottom: 16.25rem;
+    background-color: #212f63;
+    position: relative;
+}
+
+.noruega .quadrado4{  
+    position: relative;
+    height: 20rem;
+    left: 11.25rem;
+    bottom: 27.5rem;
+    width: 2.5rem;
+    background-color: #212f63;
+
+}
+
+/* tailandia */
+.tailandia {
+    border: .1rem solid #000;
+    max-width: min-content;
+}
+
+.tailandia .quadrado1{
+    background-color: #e11a22;
+    height: 20rem;
+    width: 30rem;
+    
+}
+
+.tailandia .quadrado2{
+    position: relative;
+    top: 3rem;
+    height: 14rem;
+    background-color: #fff;
+
+}
+
+.tailandia .quadrado3 {
+    position: relative;
+    top: 3rem;
+    height: 8rem;
+    background-color: #221c4c;
+
+}
+
+/* ucrania */
+.ucrania {
+    border: .1rem solid #000;
+    max-width: min-content;
+}
+
+.ucrania .quadrado1 {
+    background-color: #015bbb;
+    height: 9rem;
+    width: 30rem;
+}
+
+.ucrania .quadrado2 {
+    background-color: #fed500;
+    height: 9rem;
+    width: 30rem;
+}
